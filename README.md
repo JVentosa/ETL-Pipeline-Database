@@ -1,4 +1,5 @@
-# Team Name: DBestias
+_Current Work in Progress:_
+- Load data into PowerBI 
 
 # How to run the code:
 Setup a connection to MySQL and PostgreSQL and verify their connections   
@@ -9,6 +10,8 @@ Afterwards, verify that all tables have been created and imported to MySQL Workb
 run the following command:  
 __python transform.py__  
 Verify that all tables have been created and imported to PostgreSQL, the tables should be made automatically.  
+
+# Team Name: DBestias
 
 # Contributors:
 
