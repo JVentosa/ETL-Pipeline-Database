@@ -1,3 +1,4 @@
+Any work in progress is out of the scope of the project and course as I have already passed the course.  
 _Current Work in Progress:_
 - Load data into PowerBI 
 
