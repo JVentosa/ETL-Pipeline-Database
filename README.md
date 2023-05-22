@@ -1,15 +1,14 @@
 # Team Name: DBestias
 
-In order to run, 
-first verify connection to MySQL 
-Copy the schema.sql into DataGrip or MySQL Workbench and run it
-then run the following command:
-python load.py reports staff 
-Afterwards, verify that all tables have been created and imported to MySQL or DataGrip
-then verify connectionto PostGreSQL
-run the following command:
-python transform.py
-Verify that all tables have been created and imported to PostGreSQL, the tables should be make automatically.
+# How to run the code:
+Setup a connection to MySQL and PostgreSQL and verify their connections   
+_Copy the schema.sql into DataGrip or MySQL Workbench and run it_  
+then run the following command:  
+__python load.py reports staff__   
+Afterwards, verify that all tables have been created and imported to MySQL Workbench / DataGrip 
+run the following command:  
+__python transform.py__  
+Verify that all tables have been created and imported to PostgreSQL, the tables should be made automatically.  
 
 # Contributors:
 
