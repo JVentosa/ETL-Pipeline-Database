@@ -3,6 +3,7 @@ import csv
 import sys
 import pandas as pd
 import mysql.connector
+import pymysql
 import config
 import numpy as np
 
@@ -134,17 +135,16 @@ def insert_data_staff(cursor, data):
 
 # connect to mysql function
 try:
-    cnx = mysql.connector.connect(
+    cnx = pymysql.connect(
         user=config.config_db['user'],
         password=config.config_db['password'],
         host=config.config_db['host'],
         database=config.config_db['database'],
         port=config.config_db['port']
     )
-    # print("Connected to the database")
-except mysql.connector.Error as err:
-    # print(f"Error: {err}")
-    cnx.close()
+    #print("Connected to the database")
+except pymysql.Error as err:
+    print(f"Error: {err}")
     sys.exit(1)
 
 # add cursor to parse
